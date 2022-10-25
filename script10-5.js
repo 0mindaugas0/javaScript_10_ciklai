@@ -23,6 +23,8 @@ function arLyginis(skaicius){
 
 function lyginiaiSkaiciai(intPradzia, intPabaiga, lyginis) {
     for (let i = intPradzia; i < intPabaiga; i++) {
-        lyginis = 
+        if (arLyginis(i)) {
+            console.log(i);
+        }
     }
 }
